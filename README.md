@@ -37,7 +37,7 @@ Please feel free to submit any code updates for review and acceptance.
  * ![Screenshoot1](images/image2.png)
  * ![Screenshoot1](images/image3.png)
  * ![Screenshoot1](images/image4.png)
- * ![Screenshoot1](images/image5.png)
+ 
 
  # Project Demo Video
  * [Demo](https://watch.screencastify.com/v/lcMPPsX2ez4aQHgCb15o)
