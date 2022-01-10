@@ -23,8 +23,9 @@
    
 
 # Contributing 
-A work in progress. And the possibilities are endless.
-Please feel free to submit any code updates for review and acceptance.
+
+ <clipboard-copy>A work in progress. And the possibilities are endless.
+Please feel free to submit any code updates for review and acceptance.</clipboard-copy>
 
 * 
 
