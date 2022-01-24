@@ -1,20 +1,14 @@
-<div class="column">
-<h2 class="title pb-4">Login:</h2><hr>
-<form class="login-form">
-  <div>
-    <label for="email-login">Email:</label>
-    <input type="text" id="email-login" />
-  </div>
-  <div>
-    <label for="password-login">Password:</label>
-    <input type="password" id="password-login" />
-  </div>
-  <div>
-    <button type="submit" class="button is-primary">Login</button>
-    <a href="/signup"><button type="button" class="button is-danger">Signup</button></a>
-  </div>
-</form>
+<div>
+  {{#each posts as |post|}}
+    <div class="post">
+      <header class="post-header">
+        <a href="/post/{{post.id}}" class="post-title">{{post.title}}</a>
+        <p class="created-details">Posted on {{format_date createdAt}}</p>
+      </header>
+      <p class="post-content">
+        {{post.contents}}
+      </p>
+    </div>
+  {{/each}}
+  <a href="/posts/add" class="add-post-button">Add Post</a>
 </div>
-
-<!-- javascript file-->
-<script src="/javascript/login.js"></script>
