@@ -1,14 +1,19 @@
-<div>
-  {{#each posts as |post|}}
-    <div class="post">
-      <header class="post-header">
-        <a href="/post/{{post.id}}" class="post-title">{{post.title}}</a>
-        <p class="created-details">Posted on {{format_date createdAt}}</p>
-      </header>
-      <p class="post-content">
-        {{post.contents}}
-      </p>
-    </div>
-  {{/each}}
-  <a href="/posts/add" class="add-post-button">Add Post</a>
+<div class="row justify-center">
+  <div class="col-10 col-sm-8">
+    <form class="form login-form">
+      <div class="form-group">
+        <label for="username-login">username:</label>
+        <input class="form-input" type="text" id="username-login" />
+      </div>
+      <div class="form-group">
+        <label for="password-login">password:</label>
+        <input class="form-input" type="password" id="password-login" />
+      </div>
+      <div class="form-group">
+        <button class="btn btn-primary" type="submit">login</button>
+      </div>
+    </form>
+  </div>
 </div>
+
+<script src="./js/login.js"></script>

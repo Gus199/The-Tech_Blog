@@ -2,27 +2,27 @@ const { Comment } = require("../models");
 
 const commentdata = [
   {
-    comment: "I hate OOP!",
+    comment: "Yes React is widely used for programming",
     post_id: 1,
     user_id: 1,
   },
   {
-    comment: "I think OOP is super useful and is great practice.",
+    comment: "React makes JavaScript coding easier.",
     post_id: 1,
     user_id: 2,
   },
   {
-    comment: "I hate the new chapter!",
+    comment: " Allows you to make web pages interactive",
     post_id: 4,
     user_id: 1,
   },
   {
-    comment: "Yes, macbook pros are fine for web development.",
+    comment: "I Prefer back-end .",
     post_id: 5,
     user_id: 3,
   },
   {
-    comment: "I also love React, I think it's my favorite JS framework.",
+    comment: "I Like Mac but i also use Windows.",
     post_id: 6,
     user_id: 2,
   },

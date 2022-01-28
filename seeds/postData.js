@@ -2,38 +2,38 @@ const { Post } = require("../models");
 
 const postdata = [
   {
-    title: "OOP",
+    title: "What is React ?",
     contents:
-      "I learned a lot about object oriented programming this week, it's complicated!",
+      "React is a library for helping developers build user interfaces (UIs)",
     user_id: 1,
   },
   {
-    title: "Cryptocurrency",
+    title: "Component",
     contents:
-      "I learned about bitcoin and ethereum 10 years ago, I wish I acted on it...",
+      "Is a mixture is of HTML and JavaScript that captures all of the logic required",
     user_id: 1,
   },
   {
-    title: "Artificial Intelligence",
+    title: "Node.js",
     contents:
-      "I have seen a lot about Facebook/Meta developing AI.  What do you guys think, will the AI robots take over the world?",
+      "is actually not a framework or a library, but a runtime environment, based on Chrome’s V8 JavaScript engine. ",
     user_id: 1,
   },
   {
-    title: "Video Games",
+    title: "Javascript",
     contents: "Have you guys played the new Fortnite Chapter 3?  It's fun!",
     user_id: 2,
   },
   {
-    title: "Macbook Pro",
+    title: "Front End?",
     contents:
-      "Does anyone use a macbook pro for web development?  How do the specs hold up vs. other pcs?",
+      "Refers to the visual elements that users see and interact  ",
     user_id: 3,
   },
   {
-    title: "ReactJS",
+    title: "MacOS vs. Windows",
     contents:
-      "I can't wait to start learning about React.  I've had a little experience putting together React apps and they are so robust!",
+      "It all comes down to personal preference and the type of work you do. ",
     user_id: 3,
   },
 ];
